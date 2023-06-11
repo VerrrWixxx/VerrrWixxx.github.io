@@ -1,0 +1,165 @@
+*, *::before, *::after {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0px;
+   font-family: 'Manrope', sans-serif;
+}
+
+img {
+   display: block;
+}
+
+/* Header */
+.header {
+   display: flex;
+   align-items: center;
+   height: 73px;
+   border-bottom: 1px solid #E5E9F2 ;
+}
+
+.header-container {
+   width: 1110px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+}
+
+.logo {
+   margin-right: 40px;
+}
+
+.nav {
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 1;
+   color: #18191F;
+}
+
+.appstore {
+   margin-left: auto;
+   display: flex;
+}
+
+.appstore-item {
+   margin-left: 12px;
+}
+
+.nav-link {
+   margin-right: 32px;
+   color: #18191F;
+   text-decoration: none;   
+}
+
+.nav-link:hover {
+   color: #8c30f5;
+}
+/* End Header */
+
+/* Main */
+
+.main {
+
+}
+
+.main-container  {
+   width: 1110px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   padding-top: 187px ;
+   padding-bottom: 187px ;
+}
+
+.main-content  {
+   width: 540px;
+   line-height: 1.78;
+   color: #18191F;
+}
+
+.main-img  {
+
+}
+
+.main-header {
+   margin: 0;
+   margin-bottom: 16px;
+   font-weight: 800;
+   font-size: 72px;
+   line-height: 1.36;
+   color: #18191F;
+
+   color: #18191F;
+
+}
+
+.button {
+   display: inline-block;
+   padding-left: 35px;
+   padding-right: 35px;
+   height: 62px;
+   background:#8c30f5;
+   border-radius: 8px;
+
+   /* Button Text */
+   font-weight: bold;
+   font-style: 20px;
+   line-height: 62px;
+   color: white;
+   text-decoration: none;
+}
+
+.button:hover
+
+.main-content p {
+   margin: 0;
+   font-size: 18px;
+   line-height: 1.78;
+}
+
+.main-text {
+   margin-bottom: 32px;
+}
+
+.main-text p {
+   margin-bottom: 15px;
+   font-style: 18px;
+   line-height: 1.78;
+}
+
+/* End Main */
+
+/* Footer */
+
+.footer {
+   display: flex;
+   align-items: center;
+   height: 72px;
+   background: #0B0D17;
+   color: #D9DBE1;
+}
+
+.footer-container {
+   width: 1110px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.footer-copyright {
+   font-size: 14px;
+}
+
+.footer-copyright p {
+   margin: 0;
+}
+
+.footer-socials {
+
+}
+
+/* End Footer */
